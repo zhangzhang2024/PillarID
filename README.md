@@ -24,7 +24,7 @@ As an important component of Intelligent Transportation Systems (ITS), infrastru
 
 #### a. Clone this repository
 ```shell
-https://github.com/zhangzhang2024/PillarID && cd PillarID
+git clone https://github.com/zhangzhang2024/PillarID && cd PillarID
 ```
 #### b. Install the environment
 
