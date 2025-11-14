@@ -1,22 +1,22 @@
 <p align="center">
 
-  <h1 align="center">Height3D: A Roadside Visual Framework Based on Height Prediction in Real 3-D Space</h1>
+  <h1 align="center">PillarID: Rethinking Backbone Network Designs for Pillar-based 3D Object Detection in Infrastructure Point Cloud</h1>
   
   </p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Paper](https://img.shields.io/badge/Paper-TITS-00629b.svg)](https://ieeexplore.ieee.org/document/11005676)
 
-<p align="center">
+<!-- <p align="center">
 <img src="docs/assets/height3d_fig3.png" width="800" alt="" class="img-responsive">
 </p>
 <p align="center">
 <img src="docs/assets/height3d_fig8.png" width="800" alt="" class="img-responsive">
-</p>
+</p> -->
 
 # Overview
 
-Height3D is a roadside visual perception framework based on height prediction in real 3D space. Height Prediction Block (HPB) with explicit height supervision is proposed to predict the height distribution of targets for roadside visual view transform. Also, Spatial Aware Block (SAB) is used to further extract spatial context information in BEV space and enhance fine-grained BEV features. The proposed method achieves the state-of-the-art in two large-scale real-world roadside visual perception benchmarks, DAIR-V2X-I and Rope3D. 
+As an important component of Intelligent Transportation Systems (ITS), infrastructure-centric point cloud 3D object detection has not received sufficient attention and effective network architecture design due to differences in sensor locations. Inspired by this, we propose a dense backbone-based network named PillarID, which utilizes the rich contextual information of the roadside point cloud effectively aggregated by the Single-stride Cross-stage Dense backbone (SCD), and obtains the global receptive field using Hierarchical Receptive-field Extension (HRE). Both qualitative and quantitative analyses of the results show that our proposed method outperforms existing methods. We hope our work can shed light on studying more effective feature representation on roadside perception. 
 
 
 ## Getting Started
@@ -82,6 +82,6 @@ If you find this project useful in your research, please consider citing:
 
 
 
-## License
+<!-- ## License
 
-This project is released under the [Apache 2.0 license](LICENSE).
+This project is released under the [Apache 2.0 license](LICENSE). -->
