@@ -32,7 +32,7 @@ Following the install documents for [OpenPCDet](docs/INSTALL.md).
 
 #### c. Prepare the datasets. 
 
-Please follow the [Height3D](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/GETTING_STARTED.md) to convert the DAIRV2X-I dataset to Kitti format and follow the [OpenPCDet](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/GETTING_STARTED.md) to convert the Kitti format to PCDet format, then rename it to dair-v2x-kitti-pcdet.
+Please follow the [Height3D](https://github.com/zhangzhang2024/Height3D/blob/main/docs/prepare_dataset.md) to convert the DAIRV2X-I dataset to Kitti format and follow the [OpenPCDet](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/GETTING_STARTED.md) to convert the Kitti format to PCDet format, then rename it to dair-v2x-kitti-pcdet.
 
 ### Training
 
