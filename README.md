@@ -6,7 +6,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Paper](https://img.shields.io/badge/Paper-TITS-00629b.svg)](https://ieeexplore.ieee.org/document/11005676)
-![Visitors](https://komarev.com/ghpvc/?username=zhangzhang2024&repo=PillarID&label=Hello,%20Visitor%20&color=CD5C5C&style=social)
+<a href="https://github.com/zhangzhang2024/PillarID" target="_blank">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=zhangzhang2024.pillarid&left_color=gray&right_color=red&label=Hello, Visitor" alt="visitor badge">
+</a>
+
 
 <!-- <p align="center">
 <img src="docs/assets/height3d_fig3.png" width="800" alt="" class="img-responsive">
