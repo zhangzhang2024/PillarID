@@ -45,7 +45,9 @@ Please follow the [Height3D](https://github.com/zhangzhang2024/Height3D/blob/mai
 CUDA_VISIBLE_DEVICES=0 python tools/train.py \
     --cfg_file tools/cfgs/dair_models/pillarid.yaml  \
     --work_dir /mnt/tmpdata/pillar/pillarid/
+```
 
+```shell
 # multi-gpus
 CUDA_VISIBLE_DEVICES=0,1 bash tools/scripts/dist_train.sh 2 \
     --cfg_file tools/cfgs/dair_models/pillarid.yaml \
@@ -60,7 +62,9 @@ CUDA_VISIBLE_DEVICES=0 python tools/test.py \
     --cfg_file tools/cfgs/dair_models/pillarid.yaml \
     --ckpt /mnt/tmpdata/pillar/pillarid/default/ckpt/checkpoint_epoch_80.pth \
     --batch_size 1 --infer_time
+```
 
+```shell
 # vis
 CUDA_VISIBLE_DEVICES=0 python tools/eval.py \
     --cfg_file tools/cfgs/dair_models/pillarid.yaml \
@@ -84,7 +88,7 @@ If you find this project useful in your research, please consider citing:
 ## Acknowledgement
 -  This work is built upon the [OpenPCDet](https://github.com/open-mmlab/OpenPCDet), [VoxelNeXt](https://github.com/dvlab-research/VoxelNeXt) and [Height3D](https://github.com/zhangzhang2024/Height3D). 
 
-
+If you find our paper and code useful in your research, please consider giving us a star ⭐ and citing our work 📝 :)
 
 <!-- ## License
 
